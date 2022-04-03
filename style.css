@@ -1,0 +1,38 @@
+*{
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#fotoperfil{
+    width: 200px;
+    border-radius: 100%;
+}
+
+#header{
+    background: url("images/background.png");
+    background-size: cover;
+}
+
+.html{
+    font-family: 'Cutive Mono', monospace;
+}
+
+.css{
+    font-style: italic;
+}
+
+ul .ingles{
+    font-weight: 900;
+    font-family: 'Pacifico', cursive;
+}
+
+p .linkcanva{
+    color: rgb(133, 22, 133);
+    font-weight: 700;
+}
