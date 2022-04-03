@@ -1,5 +1,5 @@
 *{
-    /* border: 1px solid red; */
+    /* border: 1px solid green; */
     padding: 0;
     margin: 0;
 }
@@ -9,14 +9,35 @@ a:link, a:visited{
     color: black;
 }
 
+#nome{
+    font-family: 'Lavishly Yours', cursive;
+    text-align: center;
+    font-size: 400%;
+}
+
+#description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    float: left;
+    width: 650px;
+    text-align: justify;
+    margin: 3% 0 0 1%;
+}
+
 #fotoperfil{
     width: 200px;
     border-radius: 100%;
+    float:right;
+    margin: 0 2%;
+    padding: 5px;
+    background-color: black;
 }
+
 
 #header{
     background: url("images/background.png");
     background-size: cover;
+    height: 340px; 
 }
 
 .html{
