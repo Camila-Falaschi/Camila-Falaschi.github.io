@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body{
+    background-color: #FFF8F2;
+}
+
 a:link, a:visited{
     text-decoration: none;
     color: black;
@@ -19,7 +23,7 @@ a:link, a:visited{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     float: left;
-    width: 650px;
+    width: 70%;
     text-align: justify;
     margin: 3% 0 0 1%;
 }
@@ -30,9 +34,8 @@ a:link, a:visited{
     float:right;
     margin: 0 2%;
     padding: 5px;
-    background-color: black;
+    background-color: #403E3D;
 }
-
 
 #header{
     background: url("images/background.png");
@@ -40,20 +43,54 @@ a:link, a:visited{
     height: 340px; 
 }
 
+p .linkcanva{
+    color: rgb(133, 22, 133);
+    font-weight: 700;
+}
+
+.letter{
+    color: #254775;
+    font-weight: 700;
+}
+
 .html{
     font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
 }
 
 .css{
     font-style: italic;
+    font-size: 30px;
 }
 
-ul .ingles{
+.ingles{
     font-weight: 900;
     font-family: 'Pacifico', cursive;
+    font-size: 28px;
 }
 
-p .linkcanva{
-    color: rgb(133, 22, 133);
-    font-weight: 700;
+ul li:nth-child(odd){
+    color: #01E1FF;
+}
+
+.block{
+    padding: 50px 0 0 100px;
+    width: 300px;
+    height: 200px;
+    margin-left: 10%;
+    background: #36515A;
+    background-size: 20px;
+    border-radius: 80% 0 70% 0;
+}
+
+#habilit{
+    font-size: 50px;
+    color: #FFF8F2;
+}
+
+.text{
+    text-align: left;
+    list-style-position: inside;
+    padding-top: 2%;
+    color: #F9F9F9;
 }
