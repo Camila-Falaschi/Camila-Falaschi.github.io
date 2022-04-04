@@ -10,7 +10,6 @@ body{
 
 a:link, a:visited{
     text-decoration: none;
-    color: black;
 }
 
 #nome{
@@ -44,13 +43,26 @@ a:link, a:visited{
 }
 
 p .linkcanva{
-    color: rgb(133, 22, 133);
+    color: #C28717;
     font-weight: 700;
 }
 
 .letter{
     color: #254775;
     font-weight: 700;
+}
+
+#indice{
+    width: 200px;
+    color: #FFF8F2;
+    background-color: #254775;
+    padding: 1% 2%;
+    margin: 1% 0 8%;
+    list-style-position: inside;
+}
+
+ul a{
+    color: #FFF8F2;
 }
 
 .html{
@@ -69,7 +81,7 @@ p .linkcanva{
     font-size: 28px;
 }
 
-ul li:nth-child(odd){
+.text ul li:nth-child(odd){
     color: #01E1FF;
 }
 
@@ -93,4 +105,29 @@ ul li:nth-child(odd){
     list-style-position: inside;
     padding-top: 2%;
     color: #F9F9F9;
+}
+
+.endblock{
+    margin-top: 8%;
+    background-color: #254775;
+    padding: 10px;
+    color: #FFF8F2;
+}
+
+.endpart{
+    margin: 20px;
+}
+
+.icon{
+    background-color: #FFF8F2;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 2%;
+
+}
+
+#github, #linkedin{
+    width: 30px;
+    margin: 0 10%;
 }
